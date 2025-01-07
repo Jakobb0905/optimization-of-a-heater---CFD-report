@@ -1,0 +1,191 @@
+Transcript Start Time:  15:54:26, 07 Jan 2025 Mitteleuropäische Zeit 
+Current Directory: "C:\Users\jakob"
+
+Build Time: May 13 2024 11:28:30 EST 
+Executable Path: C:/PROGRA~1/ANSYSI~1/ANSYSS~1/v242/fluent/ntbin/win64/fluent.exe
+
+-------------------------------------------------------------------------------
+ID    Hostname     Core  O.S.         PID    Vendor                          
+-------------------------------------------------------------------------------
+n0*   jakobs_yoga  1/8  Windows-x64  12308  Intel(R) Core(TM) i7-8550U      
+host  jakobs_yoga       Windows-x64  17372  Intel(R) Core(TM) i7-8550U      
+
+MPI Option Selected: intel
+Selected system interconnect: default
+-------------------------------------------------------------------------------
+
+Cortex Process ID: 7232 
+License Server Path: () 
+Multicore SMT processors detected. Processor affinity set!
+Reading setting file in cache: "C:\Users\jakob\Desktop\heater\fluent_exam_files\dp1\FLU\Fluent\SYS.set"
+Reading "C:\Users\jakob\Desktop\heater\fluent_exam_files\dp1\SYS\MECH\SYS.1.msh"...
+Buffering for file scan...
+
+    8635 nodes, binary.
+     496 nodes, binary.
+   17527 2D interior faces, zone  1, binary.
+      58 2D velocity-inlet faces, zone  5, binary.
+      80 2D wall faces, zone  6, binary.
+     300 2D wall faces, zone  7, binary.
+      58 2D pressure-outlet faces, zone  8, binary.
+    8889 mixed cells, zone  2, binary.
+
+
+
+Following contexts active in the case file have been de-activated because of their current context control conditions:
+"coupled-pseudo-transient"
+
+Building...
+     mesh
+     materials,
+     interface,
+     domains,
+	mixture
+     zones,
+	outlet
+	wall
+	heater
+	velocity_inlet
+	surface_body
+	interior-surface_bodySetting surface_body (mixture) ... Done.
+ Setting zone id of surface_body to 2.
+ Setting zone id of interior-surface_body to 1.
+ Setting zone id of velocity_inlet to 5.
+ Setting zone id of heater to 6.
+ Setting zone id of wall to 7.
+ Setting zone id of outlet to 8.
+Done.
+Setting surface_body (mixture) ... Done.
+Setting interior-surface_body (mixture) ... Done.
+Setting velocity_inlet (mixture) ... Done.
+Setting heater (mixture) ... Done.
+Setting wall (mixture) ... Done.
+Setting outlet (mixture) ... Done.
+
+     parallel,
+Done.
+
+Preparing mesh for display...
+Done.
+
+Setting Post Processing and Surfaces information ...	 Done.
+"Updating Setup cell..."
+"Updating Solution cell..."
+Reading C:\\Users\\jakob\\Desktop\\heater\\fluent_exam_files\\dp1\\FLU\\Fluent\\SYS.ip...
+Reading IP data ...
+	x-coord
+	y-coord
+	pressure
+	x-velocity
+	y-velocity
+	temperature
+	k
+	omega
+	hyb_init-0
+	hyb_init-1
+  Done.
+  Initializing values...
+  Done.
+Fast-loading "C:\PROGRA~1\ANSYSI~1\ANSYSS~1\v242\fluent\fluent24.2.0\\addons\afd\lib\hdfio.bin"
+Done.
+
+Writing to jakobs_yoga:"C:\Users\jakob\Desktop\heater\fluent_exam_files\dp1\FLU\Fluent\SYS.1-Setup-Output.cas.h5" in NODE0 mode and compression level 1 ...
+Grouping cells for Laplace smoothing ...
+        8889 cells,     1 zone  ...
+       18023 faces,     5 zones ...
+        9131 nodes,     1 zone  ...
+  Done.
+Done.
+Overwriting "C:\Users\jakob\Desktop\heater\fluent_exam_files\dp1\FLU\Fluent\.\\report-def-0-rfile.out"  of Report File "report-def-0-rfile"
+
+  iter  continuity  x-velocity  y-velocity      energy           k       omega     time/iter
+     1  1.0000e+00  9.9720e-03  4.3595e-03  4.2518e-04  1.0894e-02  3.6144e-01  0:00:00 8887
+     2  5.7025e-01  6.9918e-03  3.2180e-03  1.4953e-04  5.7840e-03  1.7807e-01  0:00:00 8886
+     3  3.3554e-01  4.0581e-03  1.8084e-03  6.4369e-05  4.2192e-03  7.2512e-02  0:00:00 8885
+     4  2.2952e-01  2.4925e-03  1.0592e-03  3.4425e-05  3.5886e-03  2.5484e-02  2:28:04 8884
+     5  1.7440e-01  1.6164e-03  7.1629e-04  2.0991e-05  3.2513e-03  8.4847e-03  1:58:26 8883
+     6  1.3084e-01  1.1400e-03  5.2085e-04  1.4801e-05  3.1569e-03  2.8582e-03  1:34:44 8882
+     7  9.8320e-02  8.8770e-04  4.0054e-04  1.1097e-05  3.0724e-03  1.1832e-03  1:15:47 8881
+     8  7.4462e-02  7.4182e-04  3.0722e-04  8.7752e-06  2.9595e-03  6.6016e-04  1:30:13 8880
+     9  5.6217e-02  6.4170e-04  2.3607e-04  7.2167e-06  2.7928e-03  4.7299e-04  1:12:10 8879
+    10  4.2659e-02  5.5939e-04  1.8408e-04  6.0604e-06  2.5716e-03  3.8284e-04  0:57:44 8878
+    11  3.2925e-02  4.8283e-04  1.4648e-04  5.1710e-06  2.3367e-03  3.2705e-04  0:46:11 8877
+
+  iter  continuity  x-velocity  y-velocity      energy           k       omega     time/iter
+    12  2.5535e-02  4.1753e-04  1.1526e-04  4.3029e-06  2.0866e-03  2.7089e-04  1:06:31 8876
+    13  2.0477e-02  3.5491e-04  9.2066e-05  3.5445e-06  1.8531e-03  2.2505e-04  0:53:13 8875
+    14  1.6686e-02  3.0161e-04  7.4424e-05  2.9237e-06  1.6450e-03  1.8441e-04  0:42:34 8874
+    15  1.3654e-02  2.5858e-04  6.0792e-05  2.4269e-06  1.4532e-03  1.5255e-04  1:03:38 8873
+    16  1.1114e-02  2.2512e-04  5.0327e-05  2.0250e-06  1.2797e-03  1.2818e-04  0:50:54 8872
+    17  9.0818e-03  2.0049e-04  4.2583e-05  1.7222e-06  1.1368e-03  1.0935e-04  0:40:43 8871
+    18  7.5552e-03  1.8159e-04  3.7332e-05  1.4957e-06  1.0400e-03  9.5694e-05  0:32:34 8870
+    19  6.3912e-03  1.6613e-04  3.3669e-05  1.3315e-06  9.6669e-04  8.5664e-05  0:55:37 8869
+    20  5.4523e-03  1.5115e-04  3.0974e-05  1.2029e-06  8.9667e-04  7.8284e-05  0:44:29 8868
+    21  4.7911e-03  1.3693e-04  2.8406e-05  1.1054e-06  8.2812e-04  7.2040e-05  0:35:35 8867
+    22  4.3436e-03  1.2363e-04  2.5935e-05  1.0222e-06  7.5767e-04  6.6578e-05  0:58:01 8866
+
+  iter  continuity  x-velocity  y-velocity      energy           k       omega     time/iter
+    23  3.9566e-03  1.1157e-04  2.3744e-05  9.5249e-07  6.8909e-04  6.1673e-05  0:46:25 8865
+    24  3.6153e-03  1.0082e-04  2.1740e-05  8.8697e-07  6.2483e-04  5.7440e-05  0:37:07 8864
+    25  3.2581e-03  9.1812e-05  1.9806e-05  8.2730e-07  5.6729e-04  5.3577e-05  0:29:42 8863
+    26  2.9659e-03  8.4490e-05  1.8037e-05  7.7558e-07  5.1872e-04  4.9956e-05  0:53:18 8862
+    27  2.7207e-03  7.8461e-05  1.6492e-05  7.2836e-07  4.7802e-04  4.6423e-05  0:42:38 8861
+    28  2.4864e-03  7.3195e-05  1.5130e-05  6.8484e-07  4.4435e-04  4.3102e-05  0:34:06 8860
+    29  2.2904e-03  6.8593e-05  1.3852e-05  6.4150e-07  4.1694e-04  3.9865e-05  0:56:48 8859
+    30  2.1124e-03  6.4218e-05  1.2757e-05  6.0326e-07  3.9315e-04  3.6830e-05  0:45:26 8858
+    31  1.9725e-03  6.0136e-05  1.1828e-05  5.6466e-07  3.7144e-04  3.4011e-05  0:36:21 8857
+    32  1.8534e-03  5.6242e-05  1.0995e-05  5.2648e-07  3.5121e-04  3.1444e-05  0:58:36 8856
+    33  1.7476e-03  5.2529e-05  1.0217e-05  4.9191e-07  3.3178e-04  2.9088e-05  0:46:52 8855
+
+  iter  continuity  x-velocity  y-velocity      energy           k       omega     time/iter
+    34  1.6463e-03  4.9087e-05  9.4456e-06  4.6034e-07  3.1349e-04  2.6983e-05  0:37:30 8854
+    35  1.5512e-03  4.5766e-05  8.7526e-06  4.3069e-07  2.9586e-04  2.5060e-05  0:29:59 8853
+    36  1.4570e-03  4.2735e-05  8.1519e-06  4.0302e-07  2.7909e-04  2.3291e-05  0:53:30 8852
+    37  1.3706e-03  3.9862e-05  7.6124e-06  3.7801e-07  2.6326e-04  2.1692e-05  0:42:48 8851
+    38  1.2904e-03  3.7298e-05  7.1221e-06  3.5509e-07  2.4813e-04  2.0231e-05  0:34:14 8850
+    39  1.2178e-03  3.4826e-05  6.6768e-06  3.3407e-07  2.3408e-04  1.8888e-05  0:27:23 8849
+    40  1.1527e-03  3.2566e-05  6.2619e-06  3.1444e-07  2.2050e-04  1.7640e-05  0:51:24 8848
+    41  1.0924e-03  3.0466e-05  5.8715e-06  2.9606e-07  2.0801e-04  1.6526e-05  0:41:07 8847
+    42  1.0307e-03  2.8495e-05  5.5129e-06  2.7849e-07  1.9610e-04  1.5515e-05  0:32:53 8846
+    43  9.7117e-04  2.6722e-05  5.1783e-06  2.6269e-07  1.8463e-04  1.4559e-05  0:55:47 8845
+!   43 solution is converged
+Registering ReportDefFiles, ("C:\Users\jakob\Desktop\heater\fluent_exam_files\dp1\FLU\Fluent\.\\report-def-0-rfile.out")
+Writing "| gzip -2cf > SolutionMonitor.gz"...
+Writing temporary file C:\\Users\\jakob\\AppData\\Local\\Temp\\flntgz-173722 ...
+Done.
+
+Writing data to C:\\Users\\jakob\\Desktop\\heater\\fluent_exam_files\\dp1\\FLU\\Fluent\\SYS.1.ip ...
+	x-coord
+	y-coord
+	pressure
+	x-velocity
+	y-velocity
+	temperature
+	k
+	omega
+	hyb_init-0
+	hyb_init-1
+Done.
+
+Performance Timer for 43 iterations on 1 compute node
+  Average wall-clock time per iteration:                0.120 sec
+  Global reductions per iteration:                         81 ops
+  Global reductions time per iteration:                 0.000 sec (0.0%)
+  Message count per iteration:                              9 messages
+  Data transfer per iteration:                          0.000 MB
+  LE solves per iteration:                                  4 solves
+  LE wall-clock time per iteration:                     0.079 sec (65.5%)
+  LE global solves per iteration:                           0 solves
+  LE global wall-clock time per iteration:              0.000 sec (0.0%)
+  LE global matrix maximum size:                            0
+  AMG cycles per iteration:                             7.721 cycles
+  Relaxation sweeps per iteration:                        955 sweeps
+  Relaxation exchanges per iteration:                       0 exchanges
+  LE early protections (stall) per iteration:           0.000 times
+  LE early protections (divergence) per iteration:      0.000 times
+  Total SVARS touched:                                    382
+
+  Total wall-clock time:                                5.166 sec
+
+Transcript Stop Time:  15:55:12, 07 Jan 2025 Mitteleuropäische Zeit 
+Total Transcript Time: 0 Minute 46 Second.

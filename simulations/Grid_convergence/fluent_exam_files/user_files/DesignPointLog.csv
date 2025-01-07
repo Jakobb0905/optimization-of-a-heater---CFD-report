@@ -1,0 +1,36 @@
+﻿# 
+# This file contains the parameter values of the Design Points successfully updated by Ansys Workbench.
+# Project name: fluent_exam
+# Creation date: 01/07/2025 15:30:49
+# 
+# 01/07/2025 15:30:49
+# The parameters defined in the project are:
+# ,P1 - report-def-0-op [K],P2 - Face Sizing Element Size [mm]
+# 
+# The following header line defines the name of the columns by reference to the parameters.
+Name,P1,P2
+DP 0,303.034,1
+DP 1,303.034,2
+DP 2,303.034,4
+# 
+# A non parametric change occurred and invalidated design point results.
+# 01/07/2025 15:41:04
+# 
+# 
+# 01/07/2025 15:42:09
+# Parameters have been added and/or removed. The parameters now defined in the project are:
+# ,P3 - report-def-0-op [K],P2 - Face Sizing Element Size [mm]
+# 
+# The following header line defines the name of the columns by reference to the parameters.
+Name,P3,P2
+DP 0,303.24338,1
+DP 1,303.52344,2
+DP 2,305.52428,4
+# 
+# A non parametric change occurred and invalidated design point results.
+# 01/07/2025 15:51:49
+# 
+DP 0,304.68757,1
+DP 1,304.95783,2
+DP 2,305.61869,4
+DP 4,304.65879,0.5
