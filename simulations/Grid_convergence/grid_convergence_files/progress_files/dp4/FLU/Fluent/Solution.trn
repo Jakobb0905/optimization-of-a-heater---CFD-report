@@ -1,0 +1,164 @@
+Transcript Start Time:  16:07:32, 07 Jan 2025 Mitteleuropäische Zeit 
+Current Directory: "C:\Users\jakob"
+
+Build Time: May 13 2024 11:28:30 EST 
+Executable Path: C:/PROGRA~1/ANSYSI~1/ANSYSS~1/v242/fluent/ntbin/win64/fluent.exe
+
+-------------------------------------------------------------------------------
+ID    Hostname     Core  O.S.         PID   Vendor                          
+-------------------------------------------------------------------------------
+n0*   jakobs_yoga  1/8  Windows-x64  9292  Intel(R) Core(TM) i7-8550U      
+host  jakobs_yoga       Windows-x64  68    Intel(R) Core(TM) i7-8550U      
+
+MPI Option Selected: intel
+Selected system interconnect: default
+-------------------------------------------------------------------------------
+
+Cortex Process ID: 18516 
+License Server Path: () 
+Multicore SMT processors detected. Processor affinity set!
+Reading setting file in cache: "C:\Users\jakob\Desktop\heater\fluent_exam_files\dp4\FLU\Fluent\SYS.set"
+Reading "C:\Users\jakob\Desktop\heater\fluent_exam_files\dp4\SYS\MECH\SYS.1.msh"...
+Buffering for file scan...
+
+  123424 nodes, binary.
+    1936 nodes, binary.
+  247838 2D interior faces, zone  1, binary.
+     208 2D velocity-inlet faces, zone  5, binary.
+     320 2D wall faces, zone  6, binary.
+    1200 2D wall faces, zone  7, binary.
+     208 2D pressure-outlet faces, zone  8, binary.
+  124411 mixed cells, zone  2, binary.
+
+
+
+Following contexts active in the case file have been de-activated because of their current context control conditions:
+"coupled-pseudo-transient"
+
+Building...
+     mesh
+     materials,
+     interface,
+     domains,
+	mixture
+     zones,
+	outlet
+	wall
+	heater
+	velocity_inlet
+	surface_body
+	interior-surface_bodySetting surface_body (mixture) ... Done.
+ Setting zone id of surface_body to 2.
+ Setting zone id of interior-surface_body to 1.
+ Setting zone id of velocity_inlet to 5.
+ Setting zone id of heater to 6.
+ Setting zone id of wall to 7.
+ Setting zone id of outlet to 8.
+Done.
+Setting surface_body (mixture) ... Done.
+Setting interior-surface_body (mixture) ... Done.
+Setting velocity_inlet (mixture) ... Done.
+Setting heater (mixture) ... Done.
+Setting wall (mixture) ... Done.
+Setting outlet (mixture) ... Done.
+
+     parallel,
+Done.
+
+Preparing mesh for display...
+Done.
+
+Setting Post Processing and Surfaces information ...	 Done.
+"Updating Setup cell..."
+"Updating Solution cell..."
+Reading C:\\Users\\jakob\\Desktop\\heater\\fluent_exam_files\\dp4\\FLU\\Fluent\\SYS.ip...
+Reading IP data ...
+	x-coord
+	y-coord
+	pressure
+	x-velocity
+	y-velocity
+	temperature
+	k
+	omega
+	hyb_init-0
+	hyb_init-1
+  Done.
+  Initializing values...
+  Done.
+Fast-loading "C:\PROGRA~1\ANSYSI~1\ANSYSS~1\v242\fluent\fluent24.2.0\\addons\afd\lib\hdfio.bin"
+Done.
+
+Writing to jakobs_yoga:"C:\Users\jakob\Desktop\heater\fluent_exam_files\dp4\FLU\Fluent\SYS.1-Setup-Output.cas.h5" in NODE0 mode and compression level 1 ...
+Grouping cells for Laplace smoothing ...
+      124411 cells,     1 zone  ...
+      249774 faces,     5 zones ...
+      125360 nodes,     1 zone  ...
+  Done.
+Done.
+Overwriting "C:\Users\jakob\Desktop\heater\fluent_exam_files\dp4\FLU\Fluent\.\\report-def-0-rfile.out"  of Report File "report-def-0-rfile"
+
+  iter  continuity  x-velocity  y-velocity      energy           k       omega     time/iter
+     1  1.0000e+00  1.0138e-02  2.2534e-03  2.0278e-04  1.4898e-02  1.9887e-01  7:24:21 8887
+     2  5.6390e-01  5.5456e-03  1.4458e-03  5.2326e-05  4.0280e-03  6.1069e-02  6:54:41 8886
+     3  2.9108e-01  2.8107e-03  7.5258e-04  1.5057e-05  1.1561e-03  1.9306e-02  6:01:19 8885
+     4  1.6007e-01  1.4396e-03  4.0408e-04  5.3472e-06  4.2805e-04  5.6647e-03  5:48:15 8884
+     5  9.5976e-02  7.4350e-04  2.1773e-04  2.8098e-06  2.6482e-04  1.6095e-03  5:37:47 8883
+     6  6.2498e-02  3.9398e-04  1.2381e-04  1.8457e-06  2.2985e-04  4.7277e-04  5:29:25 8882
+     7  4.1608e-02  2.2081e-04  7.5195e-05  1.4424e-06  2.2225e-04  1.5880e-04  5:52:19 8881
+     8  2.7764e-02  1.3763e-04  4.8694e-05  1.1556e-06  2.0512e-04  6.5152e-05  5:41:01 8880
+     9  1.8841e-02  9.4805e-05  3.2662e-05  9.5812e-07  1.9425e-04  3.6323e-05  5:31:59 8879
+    10  1.2862e-02  7.2991e-05  2.3098e-05  8.1138e-07  1.8362e-04  2.2986e-05  5:24:44 8878
+    11  9.0086e-03  5.9806e-05  1.6632e-05  7.0687e-07  1.7207e-04  1.7780e-05  5:48:32 8877
+
+  iter  continuity  x-velocity  y-velocity      energy           k       omega     time/iter
+    12  6.4185e-03  5.1304e-05  1.2615e-05  6.0069e-07  1.6113e-04  1.2983e-05  5:37:58 8876
+    13  4.7294e-03  4.4454e-05  9.8261e-06  5.2485e-07  1.4761e-04  1.1047e-05  5:59:06 8875
+    14  3.5282e-03  3.9457e-05  8.1709e-06  4.5742e-07  1.3724e-04  8.7078e-06  5:46:24 8874
+    15  2.7145e-03  3.5240e-05  6.7063e-06  4.1443e-07  1.2929e-04  7.8943e-06  6:05:49 8873
+    16  2.0705e-03  3.2168e-05  5.8077e-06  3.6174e-07  1.2308e-04  6.3949e-06  5:51:46 8872
+    17  1.6570e-03  2.9370e-05  5.1633e-06  3.2732e-07  1.1516e-04  5.8910e-06  6:10:06 8871
+    18  1.3325e-03  2.7104e-05  4.7709e-06  2.9351e-07  1.0734e-04  4.9581e-06  6:24:45 8870
+    19  1.1182e-03  2.4922e-05  4.2356e-06  2.7368e-07  1.0111e-04  4.6775e-06  6:36:27 8869
+    20  9.2368e-04  2.3314e-05  3.9089e-06  2.5203e-07  9.7147e-05  4.0177e-06  6:45:48 8868
+!   20 solution is converged
+Registering ReportDefFiles, ("C:\Users\jakob\Desktop\heater\fluent_exam_files\dp4\FLU\Fluent\.\\report-def-0-rfile.out")
+Writing "| gzip -2cf > SolutionMonitor.gz"...
+Writing temporary file C:\\Users\\jakob\\AppData\\Local\\Temp\\flntgz-682 ...
+Done.
+
+Writing data to C:\\Users\\jakob\\Desktop\\heater\\fluent_exam_files\\dp4\\FLU\\Fluent\\SYS.1.ip ...
+	x-coord
+	y-coord
+	pressure
+	x-velocity
+	y-velocity
+	temperature
+	k
+	omega
+	hyb_init-0
+	hyb_init-1
+Done.
+
+Performance Timer for 20 iterations on 1 compute node
+  Average wall-clock time per iteration:                2.217 sec
+  Global reductions per iteration:                         83 ops
+  Global reductions time per iteration:                 0.000 sec (0.0%)
+  Message count per iteration:                              9 messages
+  Data transfer per iteration:                          0.000 MB
+  LE solves per iteration:                                  4 solves
+  LE wall-clock time per iteration:                     1.420 sec (64.0%)
+  LE global solves per iteration:                           0 solves
+  LE global wall-clock time per iteration:              0.000 sec (0.0%)
+  LE global matrix maximum size:                            0
+  AMG cycles per iteration:                             9.750 cycles
+  Relaxation sweeps per iteration:                       1793 sweeps
+  Relaxation exchanges per iteration:                       0 exchanges
+  LE early protections (stall) per iteration:           0.000 times
+  LE early protections (divergence) per iteration:      0.000 times
+  Total SVARS touched:                                    382
+
+  Total wall-clock time:                               44.344 sec
+
+Transcript Stop Time:  16:09:04, 07 Jan 2025 Mitteleuropäische Zeit 
+Total Transcript Time: 1 Minute 32 Second.
