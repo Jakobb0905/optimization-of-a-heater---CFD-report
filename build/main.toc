@@ -1,5 +1,6 @@
 \babel@toc {english}{}\relax 
 \contentsline {chapter}{\numberline {1}Meshing of the Domain}{1}{chapter.1}%
-\contentsline {chapter}{Bibliography}{II}{chapter*.4}%
-\contentsline {chapter}{List of Figures}{III}{chapter*.5}%
+\contentsline {section}{\numberline {1.1}Grid Convergence Study}{1}{section.1.1}%
+\contentsline {chapter}{Bibliography}{II}{chapter*.6}%
+\contentsline {chapter}{List of Figures}{III}{chapter*.7}%
 \contentsline {chapter}{\numberline {A}MATLAB scripts}{IV}{appendix.A}%

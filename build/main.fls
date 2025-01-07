@@ -618,6 +618,10 @@ INPUT ./tex/meshing_of_the_domain.tex
 INPUT tex/meshing_of_the_domain.tex
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/lm/ec-lmss17.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/lm/ec-lmssbx10.tfm
+INPUT c:/texlive/2024/texmf-dist/tex/latex/lm/ts1lmss.fd
+INPUT c:/texlive/2024/texmf-dist/tex/latex/lm/ts1lmss.fd
+INPUT c:/texlive/2024/texmf-dist/tex/latex/lm/ts1lmss.fd
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/lm/ts1-lmss10.tfm
 INPUT ./img/meshing_base_geometry_full_view.png
 INPUT ./img/meshing_base_geometry_full_view.png
 INPUT ./img/meshing_base_geometry_full_view.png
@@ -628,6 +632,12 @@ INPUT ./img/meshing_base_geometry_detailed_view.png
 INPUT ./img/meshing_base_geometry_detailed_view.png
 INPUT ./img/meshing_base_geometry_detailed_view.png
 INPUT ./img/meshing_base_geometry_detailed_view.png
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/lm/ec-lmss12.tfm
+INPUT ./img/grid_convergence_graph.png
+INPUT ./img/grid_convergence_graph.png
+INPUT ./img/grid_convergence_graph.png
+INPUT ./img/grid_convergence_graph.png
+INPUT c:/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc
 OUTPUT build/./tex/introduction.aux
 OUTPUT build/./tex/methods.aux
 OUTPUT build/./tex/discussion.aux
@@ -644,11 +654,6 @@ INPUT ./tex/appendix.tex
 INPUT ./tex/appendix.tex
 INPUT ./tex/appendix.tex
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/lm/ec-lmsso10.tfm
-INPUT c:/texlive/2024/texmf-dist/tex/latex/lm/ts1lmss.fd
-INPUT c:/texlive/2024/texmf-dist/tex/latex/lm/ts1lmss.fd
-INPUT c:/texlive/2024/texmf-dist/tex/latex/lm/ts1lmss.fd
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/lm/ts1-lmss10.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc
 INPUT build/main.aux
 INPUT build/./tex/titlepage.aux
 INPUT build/./tex/titlepage.aux
