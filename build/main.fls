@@ -516,9 +516,6 @@ INPUT build/./tex/introduction.aux
 INPUT build/./tex/methods.aux
 INPUT build/./tex/methods.aux
 INPUT build/./tex/methods.aux
-INPUT build/./tex/results.aux
-INPUT build/./tex/results.aux
-INPUT build/./tex/results.aux
 INPUT build/./tex/discussion.aux
 INPUT build/./tex/discussion.aux
 INPUT build/./tex/discussion.aux
@@ -633,7 +630,6 @@ INPUT ./img/meshing_base_geometry_detailed_view.png
 INPUT ./img/meshing_base_geometry_detailed_view.png
 OUTPUT build/./tex/introduction.aux
 OUTPUT build/./tex/methods.aux
-OUTPUT build/./tex/results.aux
 OUTPUT build/./tex/discussion.aux
 INPUT build/main.bbl
 INPUT build/main.bbl
@@ -666,9 +662,6 @@ INPUT build/./tex/introduction.aux
 INPUT build/./tex/methods.aux
 INPUT build/./tex/methods.aux
 INPUT build/./tex/methods.aux
-INPUT build/./tex/results.aux
-INPUT build/./tex/results.aux
-INPUT build/./tex/results.aux
 INPUT build/./tex/discussion.aux
 INPUT build/./tex/discussion.aux
 INPUT build/./tex/discussion.aux
