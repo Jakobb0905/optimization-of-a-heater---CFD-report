@@ -15,17 +15,17 @@
 	\pagenumbering{alph}
 	\include{./tex/titlepage.tex}
 	\pagenumbering{Roman}
-	\pdfbookmark[0]{\contentsname}{toc} % sets a PDF bookmark
+	\pdfbookmark[0]{\contentsname}{toc}
 	\tableofcontents
 	\newcounter{romanpagecount}
 	\setcounter{romanpagecount}{\value{page}}
 	\clearpage
 	\pagenumbering{arabic}
 	% add content of thesis here
-    \include{tex/introduction}
+    \include{tex/introduction.tex}
 	\include{tex/meshing_of_the_domain.tex}
     \include{tex/solver_comparison.tex}
-	\include{./tex/introduction.tex}
+	
 	\include{./tex/methods.tex}
 	%\include{./tex/results.tex}
     \include{./tex/discussion.tex}
@@ -33,13 +33,17 @@
 	\pagenumbering{Roman}
 	\setcounter{page}{\value{romanpagecount}}
 	\stepcounter{page}
-	\bibliography{IEEEabrv,bib} % point BibTEX at the .bib files
+
+    %added from Jakob
+    \printbibliography[heading=bibintoc] % This will add the bibliography to the table of contents
+    
+	%\bibliography{bib} % point BibTEX at the .bib files
 	\addcontentsline{toc}{chapter}{\bibname}
 	\listoffigures
 	\addcontentsline{toc}{chapter}{\listfigurename}
-%	\listoftables
-%	\addcontentsline{toc}{chapter}{\listtablename}
-%	\clearpage
+	\listoftables
+	\addcontentsline{toc}{chapter}{\listtablename}
+	\clearpage
 	\printglossary[type=acronym] % input files created by makeindex
 	\printglossary[type=symbolslist,style=symbolsliststyle] % input files created by makeindex
 	\appendix
